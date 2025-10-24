@@ -5,7 +5,7 @@ It’s designed for **speed, simplicity, and modern UI**, bringing the smoothnes
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |-------|-------------|
@@ -18,16 +18,16 @@ It’s designed for **speed, simplicity, and modern UI**, bringing the smoothnes
 
 ---
 
-## ✨ Features
-- 🔐 Secure authentication (NextAuth)
-- 💬 Real-time 1:1 and group chat
-- 🧩 Modern, minimal UI (Shadcn + Tailwind v4)
-- ⚡ Powered by Socket.IO for instant updates
-- 🌐 Ready for custom domain deployment (e.g., k3chat.com)
+##  Features
+- Secure authentication (NextAuth)
+-  Real-time 1:1 and group chat
+-  Modern, minimal UI (Shadcn + Tailwind v4)
+-  Powered by Socket.IO for instant updates
+-  Ready for custom domain deployment (e.g., k3chat.com)
 
 ---
 
-## 🧠 Setup
+##  Setup
 
 ```bash
 # 1. Clone the repo
