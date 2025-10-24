@@ -1,10 +1,17 @@
-import { Button } from "@/components/ui/button";
+import { AppSidebar } from "@/components/ui/app.sidebar";
+import { SidebarInset, SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-     hello world
-     <Button>Click me</Button>
-    </div>
+    <SidebarProvider>
+      <AppSidebar />
+      <SidebarInset>
+        <header className="flex h-16 shrink-0 items-center gap-2 px-4 ">
+          <SidebarTrigger />
+          
+        </header>
+        
+      </SidebarInset>
+    </SidebarProvider>
   );
 }
