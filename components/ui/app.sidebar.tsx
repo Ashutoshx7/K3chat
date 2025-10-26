@@ -1,18 +1,28 @@
 "use client"
-import { Button } from "@/components/ui/button"
-import { Sidebar, SidebarContent, SidebarHeader, SidebarRail } from "@/components/ui/sidebar"
 
-export function AppSidebar(props) {
+import { Button } from "@/components/ui/button"
+import {
+  Sidebar,
+  SidebarHeader,
+  SidebarContent,
+  SidebarRail,
+} from "@/components/ui/sidebar"
+
+export function AppSidebar(props: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible="offcanvas" {...props}>
       <SidebarHeader>
-        <div className="p-2">
-          <span className="text-sm font-semibold">K3Chat</span>
+        <div className="p-2 flex items-center">
+          <span className="text-2xl gap-6 font-bold px-15">K3Chat</span>
         </div>
       </SidebarHeader>
-      <Button variant="destructive" ></Button>
 
-      <SidebarContent />
+      <SidebarContent className="px-2">
+        <Button variant="default" size="default" className="w-full text-lg ">
+          New Chat
+        </Button>
+      </SidebarContent>
+
       <SidebarRail />
     </Sidebar>
   )
