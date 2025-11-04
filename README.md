@@ -1,7 +1,7 @@
-# 💬 K3Chat
+# Inquiro 🔍
 
-K3Chat is a **real-time messaging app** built with the latest web stack — **Next.js 15, Tailwind CSS v4, Prisma, NextAuth.js, and Socket.IO**.  
-It’s designed for **speed, simplicity, and modern UI**, bringing the smoothness of apps like Discord and Telegram to the web.
+Inquiro 🔍 is a **real-time reasearch assitant** built with the latest web stack — **Next.js 15, Tailwind CSS v4, Prisma, NextAuth.js, and Socket.IO**.  
+
 
 ---
 
