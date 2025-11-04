@@ -31,8 +31,8 @@ Inquiro 🔍 is a **real-time reasearch assitant** built with the latest web sta
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/k3chat.git
-cd k3chat
+git clone 
+cd Inquiro
 
 # 2. Install dependencies
 npm install

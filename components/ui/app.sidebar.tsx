@@ -13,7 +13,7 @@ export function AppSidebar(props: React.ComponentProps<typeof Sidebar>) {
     <Sidebar collapsible="offcanvas" {...props}>
       <SidebarHeader>
         <div className="p-2 flex items-center">
-          <span className="text-2xl gap-6 font-bold px-15">K3Chat</span>
+          <span className="text-2xl gap-6 px-15 font-serif">Inquiro</span>
         </div>
       </SidebarHeader>
 
